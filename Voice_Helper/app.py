@@ -24,7 +24,7 @@ import os
 
 class Speaking:
 
-    def talk(self,words):
+    def talk(self, words):
         engine.say(words)
         engine.runAndWait()
 
